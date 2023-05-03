@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/bg_storke_01">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btn_card_on"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            app:civ_border_color="@color/white"
+            android:src="@drawable/postcard_on"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btn_swap_off"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            app:civ_border_color="@color/white"
+            android:src="@drawable/swap_off"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btn_postcard_off"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            app:civ_border_color="@color/white"
+            android:src="@drawable/postcard_off"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btn_setting_off"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            app:civ_border_color="@color/white"
+            android:src="@drawable/setting_off"/>
+
+
+    </LinearLayout>
+</LinearLayout>
