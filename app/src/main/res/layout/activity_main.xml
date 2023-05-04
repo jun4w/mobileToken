@@ -74,13 +74,14 @@
                         android:layout_height="60dp"
                         android:background="@drawable/ic_bg_round"
                         android:gravity="center">
-                        <androidx.appcompat.widget.AppCompatImageButton
+                        <ImageButton
                             android:id="@+id/img_btn_front"
                             android:layout_width="48dp"
                             android:layout_height="48dp"
                             android:src="@drawable/bring_front"
                             android:background="#B9ABFC"
                             android:contentDescription="@string/app_name"/>
+
                     </LinearLayout>
                     <TextView
                         android:layout_width="wrap_content"
